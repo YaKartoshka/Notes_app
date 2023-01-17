@@ -25,7 +25,7 @@
 
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/img_back_arrow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
@@ -66,7 +66,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="26dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textMultiLine"
         android:gravity="top"
         android:hint="Start Typing"
         android:lineSpacingMultiplier="1.8"

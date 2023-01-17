@@ -13,4 +13,4 @@ data class Note(
     @ColumnInfo(name="date") val date : String?,
 
 
-)
+): java.io.Serializable
