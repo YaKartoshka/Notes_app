@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".SignUpActivity">
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="116dp"
+        android:background="#80040433"
+        android:backgroundTint="#2D304C"
+        android:textAlignment="center"
+        app:circularflow_angles="40dp"
+        app:circularflow_defaultRadius="40dp"
+        app:circularflow_radiusInDP="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleRadius="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/roboto_black"
+            android:shadowColor="#323232"
+            android:text="NOTES APP"
+            android:textColor="#E6040303"
+            android:textColorHighlight="#9C7171"
+            android:textColorHint="#976060"
+            android:textColorLink="#AF4A4A"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="150dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textAlignment="viewStart" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="250dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginRight="50dp"
+            android:width="300dp"
+            android:height="60dp"
+            android:backgroundTint="#1565C0"
+            android:text="Sign IN"
+            app:cornerRadius="45dp"
+            app:iconTint="#570E0E"
+            app:rippleColor="#700F0F"
+            app:strokeColor="#4C0D0D" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
