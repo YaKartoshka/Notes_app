@@ -59,34 +59,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="230dp"
             android:ems="10"
             android:hint="Password"
             android:inputType="textPassword"
             android:minHeight="48dp"
             android:textColorHint="#000000" />
-
-        <Button
-            android:id="@+id/sign_in_btn"
+        <EditText
+            android:id="@+id/repeat_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="350dp"
-            android:layout_marginRight="50dp"
-            android:width="300dp"
-            android:height="60dp"
-            android:backgroundTint="#1565C0"
-            android:text="Sign IN"
-            app:cornerRadius="45dp"
-            app:iconTint="#570E0E"
-            app:rippleColor="#700F0F"
-            app:strokeColor="#4C0D0D" />
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="300dp"
+            android:ems="10"
+            android:hint="Confirm a password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColorHint="#000000" />
+
         <Button
             android:id="@+id/sign_up_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="420dp"
+            android:layout_marginTop="400dp"
             android:layout_marginRight="50dp"
             android:width="300dp"
             android:height="60dp"
